@@ -1,4 +1,4 @@
-*{
+* {
     font-family: hack, sans-serif
 }
 
@@ -20,7 +20,8 @@
     font-size: 24px;
     color: #f9faf8;
 }
-.header-links{
+
+.header-links {
     display: flex;
     padding: 8px;
     gap: 32px;
@@ -29,15 +30,17 @@
 }
 
 /* this is the style section for the main content*/
-.main-container{
+.main-container {
     background-color: #1f2937;
 }
-.main{
+
+.main {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.left-main{
+
+.left-main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -46,22 +49,26 @@
     gap: 10px;
 
 }
-.right-main{
+
+.right-main {
     display: flex;
 }
-.main.text{
+
+.main.text {
     margin-top: 90px;
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
     width: 500px;
 }
-.main.subtext{
+
+.main.subtext {
     font-size: 18px;
     color: #e5e7eb;
     width: 500px;
 }
-img{
+
+.right-main img {
     color: #e5e7eb;
     height: 450px;
     width: 650px;
@@ -71,9 +78,53 @@ img{
     padding: 8px;
     border-radius: 25px;
 }
-button{
+
+button {
     background-color: #3882f6;
     color: #e5e7eb;
     border-radius: 25px;
     border: #1f2937;
+}
+
+/* This is the section for the images */
+
+.information-container {
+    background-color: #f9faf8;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-heading {
+    display: flex;
+}
+
+.heading {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 32px;
+    margin-top: 36px;
+}
+.information-image{
+    display: flex;
+    margin-top: 12px;
+    justify-content: center;
+}
+.information-image img{
+    border: 1px solid #1f2937;
+    border-radius: 25px;
+    margin: 8px;
+    height: 250px;
+    width: 250px;
+}
+.subtext-image{
+    font-size: 18px;
+    color: #1f2937;
+    margin-top: 12px;
+    width: 250px;
+    margin-left: 23px;
 }
