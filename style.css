@@ -109,22 +109,52 @@ button {
     padding: 32px;
     margin-top: 36px;
 }
-.information-image{
+
+.information-image {
     display: flex;
     margin-top: 12px;
     justify-content: center;
 }
-.information-image img{
+
+.information-image img {
     border: 1px solid #1f2937;
     border-radius: 25px;
     margin: 8px;
     height: 250px;
     width: 250px;
 }
-.subtext-image{
+
+.subtext-image {
     font-size: 18px;
     color: #1f2937;
     margin-top: 12px;
     width: 250px;
     margin-left: 23px;
+    margin-bottom: 90px;
+}
+
+/* This is the quote section */
+
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    width: 1100px;
+    padding: 16px;
+    margin-top: 100px;
+}
+
+.comment {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-left: 860px;
 }
