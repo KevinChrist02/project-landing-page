@@ -1,6 +1,9 @@
 *{
     font-family: hack, sans-serif
 }
+
+/* this is the style section for the header*/
+
 .header-container {
     background-color: #1f2937;
 }
@@ -22,5 +25,39 @@
     padding: 8px;
     gap: 32px;
     font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* this is the style section for the main content*/
+.main-container{
+    background-color: #1f2937;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+    padding: 8px;
+    gap: 10px;
+
+}
+.main.text{
+    margin-top: 90px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    width: 500px;
+}
+.main.subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 500px;
+}
+img{
     color: #e5e7eb;
 }
